@@ -1,7 +1,6 @@
 # cpp_template
-ND Template for C++
-
-Contains basic structuring of classes and basic cmake example.
+ND basic template for C++.
+Contains basic structuring of classes and accompanying cmake files.
 
 ## Install build tools
 On CentOS/Fedora run the following line in a terminal:
