@@ -17,6 +17,7 @@ sudo apt-get install build-essential
 First time, and when new source files have been added.
 Starting in the project folder:
 ```
+mkdir build
 cd build
 cmake ..
 make
