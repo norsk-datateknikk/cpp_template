@@ -4,12 +4,12 @@ ND Template for C++
 Contains basic structuring of classes and basic cmake example.
 
 ## Install build tools
-On CentOS/Fedora run the following line from a terminal:
+On CentOS/Fedora run the following line in a terminal:
 ```
 sudo dnf groupinstall "Development Tools" "Development Libraries"
 ```
 
-On Ubuntu run the following line from a terminal:
+On Ubuntu run the following line in a terminal:
 ```
 sudo apt-get install build-essential
 ```
