@@ -1,4 +1,4 @@
-# cpp_template
+# C++ Template
 ND basic template for C++.
 Contains basic structuring of classes and accompanying cmake files.
 
