@@ -5,6 +5,8 @@
 // file 'LICENSE', which is part of this source code package.   //
 //--------------------------------------------------------------//
 
+#pragma once    // only include file once.    
+
 #include <iostream>
 #include <vector>
 
@@ -14,9 +16,6 @@
 class ND_house
 {
     public:
-        ND_house( std::string owner, uint age );
-        virtual ~ND_house();
-        
         struct person
         {
             std::string name;
@@ -37,7 +36,7 @@ class ND_house
 class ND_home : public ND_house
 {
     public:
-        ND_home();
+        ND_home( std::string name, uint age );
         virtual ~ND_home();
 
         float get_rent_per_resident();
