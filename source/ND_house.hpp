@@ -16,6 +16,7 @@
 class ND_house
 {
     public:
+        // Public items can be called form anywhere. Similar to struct items. 
         struct person
         {
             std::string name;
@@ -25,13 +26,14 @@ class ND_house
         person get_owner();
 
     protected:
+        // Protected items are private in derived classes. 
         person      owner;
         
 };
 
-
 /**
  * Class for describing a home.
+ * Inherits from the ND_house class.
  */
 class ND_home : public ND_house
 {
@@ -42,10 +44,11 @@ class ND_home : public ND_house
         float get_rent_per_resident();
 
     private:
-
+        // Private items can only be accessed form class methods of this class.
         uint rent = 12000;          // Value is set during object construction.
-
-        std::vector<person> residents;    
+        std::vector<person> residents;  // A vector has variable lenght.
         std::string     address;
+
+        // Utility method
         uint get_numb_of_residents();
 };
