@@ -7,7 +7,6 @@
 
 #include "ND_house.hpp"
 
-
 /**
  * @returns The house owner.
  */

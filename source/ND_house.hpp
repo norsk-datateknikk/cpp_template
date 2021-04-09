@@ -50,5 +50,5 @@ class ND_home : public ND_house
         std::string     address;
 
         // Utility method
-        uint get_numb_of_residents();
+        uint get_numb_of_residents(); // Private method can only be called from other mehtods in this class.
 };
