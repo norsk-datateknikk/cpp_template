@@ -1,6 +1,6 @@
 # ND C++ Template
 ND basic template for C++.
-Contains basic structuring of classes and accompanying cmake files.
+Contains basic structuring of classes and accompanying cmake file.
 
 ## Install build tools
 On CentOS/Fedora run the following line in a terminal:
